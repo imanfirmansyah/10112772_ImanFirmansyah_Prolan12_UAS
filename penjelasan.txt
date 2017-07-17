@@ -1,0 +1,45 @@
+
+**PENJELASAN PROGRAN WARUNG MANDIRI**
+
+Dibuat Oleh :
+Nama : Iman Firmansyah
+Nim  : 10112772
+Kelas: PROLAN-12
+
+
+Program warung mandiri ini hanya memiliki 2 class yaitu class utama main class "WarungMandiri" dan class "Data"
+di dalam class "Data" memiliki atribut atau properties sebagai berikut :  
+1. pil
+2. jumlah
+3. harga
+4. hargaMkn
+5. hargaMnm
+6. hargam
+7. ttl 
+yang bertife data "integer" sedangkan atribut nama dan alamat juga merupakan atribut atu properties dari class Data yang bertipe data String
+didalam class "Data" memiliki berbagai method yaitu :
+1. dataPelanggan()
+yang di dalam method ini berisi masukkan yang harus di inputkan oleh pelanggan yaitu nama pelanggan pada atribut "nama"
+dan alamat pelanggan pada atribut "alamat"
+2. dataMakan()
+didalam method ini berisi menu puilihan daftar menu makan yang akan dipilih dimasukan pada
+pil = scan.nextInt(); 
+hargam=0 bertujuan untuk inisialisasi sebelum melakukan pilihan
+case 1: harga=8000 bertujuan untuk inisialisasi pilihan dari menu pertama
+hargaMkn=harga*jumlah; bertujuan untuk pemberian Harga pada atribut 
+3.dataMinum()
+didalam method ini berisi menu pilihan untuk data minum, pemberian harga serta pengolahan aritmatika dari data yang sudah sipilih
+4,hitungHarga()
+
+Di dalam method ini berisi aritmatika perhitungan untuk menghitung total harga serta menampilkan data inputan pelanggan
+untuk class utama (main) bersifat public yang kegunaanya agar atribut atau method tersebut bisa diakses dari class manapun
+Data data = new Data(); ini digunakan untuk instantisasi,yaitu proses membuat obyek baru dengan nama 'data' dan obyek ini termasuk kedalam class 'Data'
+data.dataPelanggan(); dimaksudkan untuk menjalankan method dataPelanggan() 
+					  yaitu untuk menampilkan hasil dari data pelanggan yang di inputkan pertama kali
+data.dataMakanan(); dimaksudkan untuk menjalankan method dataMakan() yang didalamnya berisi data menu makan yang dipilih oleh pelanggan, berapa banyak
+					berapa banyak jumlah menu yang dipilih dan proses perhitungan jumlah harga yang harus di bayarkan
+data.dataMinum(); dimaksudkan untuk menjalankan method dataMinum() yang didalamnya berisi data menu minuman yang dipilih oleh pelanggan, berapa banyak
+				  berapa banyak jumlah minumam yang dipilih dan proses perhitungan jumlah harga yang harus di bayarkan
+data.hitungHarga(); dimaksudkan untuk menjalankan method hitungHarga() yang didalamnya berisi total bayar dari menu makan dan minumam
+					yang dipilh pelanggan serta menampilkan data pelanggan
+				
